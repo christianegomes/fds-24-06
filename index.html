@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js" defer></script>
+</head>
+<body>
+    <div onmouseenter="aumentar()" onmouseleave="diminuir()">
+        <img src="https://www.otempo.com.br/polopoly_fs/1.1859999.1529676259!image/image.jpeg_gen/derivatives/new-layout-article-photo-gallery-fit_930/image.jpeg" alt="">
+    </div>
+
+    <input type="text" placeholder="digite sua senha" onblur="validarSenha()">
+    <p class="erro">A senha é muito curta</p>
+
+    <div class="modal">
+        <p>Você deseja realmente excluir seus dados?</p> 
+    </div>
+
+    <button onclick="mostrarModal()">Excluir</button>
+</body>
+</html>
